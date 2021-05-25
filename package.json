@@ -1,0 +1,40 @@
+{
+  "name": "tech-blog",
+  "version": "1.0.0",
+  "description": "![License: MIT](https://img.shields.io/badge/License-MIT-success.svg)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "seed": "node seeds/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NAHco-code/Tech-Blog.git"
+  },
+  "keywords": [
+    "tech",
+    "blog",
+    "kathryn",
+    "wilkinson",
+    "full",
+    "stack"
+  ],
+  "author": "k.wilkinson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NAHco-code/Tech-Blog/issues"
+  },
+  "homepage": "https://github.com/NAHco-code/Tech-Blog#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-session-sequelize": "^7.1.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.2",
+    "express-session": "^1.17.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.2"
+  }
+}
